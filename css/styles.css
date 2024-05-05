@@ -148,6 +148,28 @@ h1,h2,h3{
     height: 14rem;
     width: 15rem;
 }
+/*Tamaño de letras del header*/
+.sarria-letra-blanca{
+    font-size: 4rem;
+}
+.main-h2{
+    font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+    .sarria-letra-blanca{
+        font-size: 17rem;
+    }
+    .main-h2{
+        font-size: 5rem;
+    }
+}
+
+/*barra*/
+.contenedor-header{
+    display: flex;
+    justify-content: center;
+}
 
 @media (min-width: 768px) {
     .barra {
@@ -155,6 +177,10 @@ h1,h2,h3{
         justify-content: space-between;
         align-items: center;
     }
+    .contenedor-header{
+        display:block;
+    }
+
 }
 
 
